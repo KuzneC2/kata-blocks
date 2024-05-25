@@ -205,15 +205,16 @@ body {
 
 
 @media only screen and (min-width: 521px) and (max-width: 1024px) {
-    .navigation{
+    .navigation {
         margin: 0 0 32px 24px;
     }
 }
+
 @media (max-width: 520px) {
     .navigation {
         margin: 0 0 24px 16px;
     }
-    
+
 }
 
 .navigation__list {
@@ -249,15 +250,24 @@ body {
     text-decoration: none;
 }
 
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+    .container-about {
+        display: flex;
+    }
+}
 
-
-
-.container-text {
+.container-about__collumn {
     margin: 0 auto 0;
     max-width: 320px;
 }
 
-.container-text__subtitle {
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+    .container-about__collumn {
+        margin: 0 0 0 24px;
+    }
+}
+
+.container-about__subtitle {
     font-family: 'TT Lakes';
     font-size: 14px;
     line-height: 18px;
@@ -267,11 +277,29 @@ body {
     margin: 0 auto 0;
 }
 
-.container-text__subtitle:nth-of-type(2) {
+.container-about__subtitle:nth-of-type(2) {
     display: none;
 }
 
-.container-text__more-information {
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+    .container-about__subtitle {
+        margin: 0 auto 25px;
+        line-height: 20px;
+        max-width: 312px;
+    }
+
+    .container-about__subtitle:nth-of-type(2) {
+        display: block;
+        margin: 0;
+        overflow: hidden;
+        max-height: 40px;
+    }
+}
+
+
+
+
+.container-about__more-information {
     font-family: 'TT Lakes';
     font-size: 16px;
     line-height: 24px;
@@ -280,7 +308,8 @@ body {
     margin: 16px 0 0 0;
 }
 
-.container-text__more-information::before {
+
+.container-about__more-information::before {
     content: url(./images/more.svg);
     text-align: center;
     display: inline-block;
@@ -289,13 +318,31 @@ body {
     margin: 0 8px 0 16px;
 }
 
-.container-text__more-information:hover {
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+    .container-about__more-information {
+        margin: 10px 0 0 0;
+    }
+
+    .container-about__more-information::before {
+        margin: 0 8px 0 1px;
+    }
+}
+
+.container-about__more-information:hover {
     color: #1b1c218d;
 }
 
-.services__image {
+.container-about__image {
     width: 320px;
     display: flex;
     margin: 0 auto;
     padding: 16px 0 35px 0;
+}
+
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+    .container-about__image {
+        width: 360px;
+        padding: 0 0 40px 0;
+        margin: 0 25px 0 48px;
+    }
 }
