@@ -1,0 +1,9 @@
+.navigation__link:focus {
+    background-color: #ffffff;
+    border: 1px solid #B8FFEC;
+}
+
+.navigation__link {
+    color: #7E7E82;
+    text-decoration: none;
+}

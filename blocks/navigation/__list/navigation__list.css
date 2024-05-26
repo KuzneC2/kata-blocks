@@ -1,0 +1,21 @@
+.navigation__list {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin: 0 25px 0 32px;
+    justify-content: flex-start;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+@media (max-width: 1024px){
+    .navigation__list{
+        margin: 0 0 32px 24px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+}
+@media (max-width: 520px) {
+    .navigation__list{
+        margin: 0 0 24px 16px;
+    }
+}

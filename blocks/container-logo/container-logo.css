@@ -1,0 +1,33 @@
+.container-logo {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .container-logo {
+        display: block;
+    }
+}
+
+.container-logo::before {
+    display: none;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1024px) {
+    .container-logo::before {
+        content: '';
+        width: 2px;
+        display: inline-flex;
+        height: 32px;
+        border-radius: 1px;
+        background-color: #eaeaea;
+        margin: 0 20px 0 4px;
+        vertical-align: super;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .container-logo::before {
+        display: none;
+    }
+}

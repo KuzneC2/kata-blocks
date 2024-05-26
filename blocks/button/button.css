@@ -1,0 +1,28 @@
+.button {
+    width: 40px;
+    height: 40px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+}
+
+
+.container-buttons>button:nth-child(1)::before {
+    content: 'Оставить заявку';
+    display: flex;
+}
+
+.header__row>.button {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .header__row>.button {
+        display: block;
+    }
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ff3e78ac;
+}

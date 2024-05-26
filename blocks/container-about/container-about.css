@@ -1,0 +1,6 @@
+@media only screen and (min-width: 656px) {
+    .container-about {
+        display: flex;
+        justify-content: center;
+    }
+}

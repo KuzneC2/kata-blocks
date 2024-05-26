@@ -1,0 +1,16 @@
+.container-about__collumn {
+    margin: 0 0 0 34px;
+}
+
+@media only screen and (min-width: 656px) and (max-width: 1024px) {
+    .container-about__collumn {
+        margin: 0 0 0 24px;
+    }
+}
+
+@media (max-width: 656px) {
+    .container-about__collumn {
+        margin: 0 auto 0;
+        max-width: 320px;
+    } 
+}

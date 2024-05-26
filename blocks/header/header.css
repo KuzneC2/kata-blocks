@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 8px 0;
+}
+
+@media (max-width:1024px) {
+    .header {
+        min-height: 88px;
+        border-bottom: 1px solid #D9FFF5;
+        background-color: #ffffff;
+        padding: 0;
+    }
+}
+
+@media (max-width:520px) {
+    .header {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 521px) and (max-width: 1024px) {
+    .header {
+        justify-content: space-between;
+    }
+}
