@@ -4,13 +4,12 @@
     background-color: #FF3E79;
     border-radius: 50%;
     margin: 0 16px 0 0;
+    padding: 0;
+    border: none;
 }
 
 
-.container-buttons>button:nth-child(1)::before {
-    content: 'Оставить заявку';
-    display: flex;
-}
+
 
 .header__row>.button {
     display: none;

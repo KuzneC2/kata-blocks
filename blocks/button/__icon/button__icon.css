@@ -1,3 +1,5 @@
 .button__icon {
-    padding: 10px;
+    padding: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
