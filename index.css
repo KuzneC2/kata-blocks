@@ -36,8 +36,4 @@
 @import url(./blocks/container-about/__image/container-about__image.css);
 @import url(./blocks/container-about/__subtitle-box/container-about__subtitle-box.css);
 
-.contaier-href {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
+@import url(./blocks/container-href/container-href.css);
