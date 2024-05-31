@@ -6,24 +6,25 @@
 @import url(./blocks/header/__title/header__title.css);
 
 @import url(./blocks/container-buttons/container-buttons.css);
-@import url(./blocks/container-buttons/__subtitle/container-buttons__subtitle.css);
 
-@import url(./blocks/button/button.css);
-@import url(./blocks/button/__icon/button__icon.css);
-@import url(./blocks/button/__icon-burger/button__icon-burger.css);
-@import url(./blocks/button/__icon-call/button__icon-call.css);
-@import url(./blocks/button/__icon-support/button__icon-support.css);
-@import url(./blocks/button/__icon-profile/button__icon-profile.css);
-@import url(./blocks/button/__icon-repair/button__icon-repair.css);
-@import url(./blocks/button/__icon-lupa/button__icon-lupa.css);
+@import url(./blocks/container-buttons/__subtitle/container-buttons__subtitle.css);
+@import url(./blocks/round-button/round-button.css);
+@import url(./blocks/round-button/__icon/round-button__icon.css);
+@import url(./blocks/round-button/__icon/_burger/round-button__icon_burger.css);
+@import url(./blocks/round-button/__icon/_call/round-button__icon_call.css);
+@import url(./blocks/round-button/__icon/_support/round-button__icon_support.css);
+@import url(./blocks/round-button/__icon/_profile/round-button__icon_profile.css);
+@import url(./blocks/round-button/__icon/_repair/round-button__icon_repair.css);
+@import url(./blocks/round-button/__icon/_lupa/round-button__icon_lupa.css);
 
 @import url(./blocks/container-logo/container-logo.css);
 @import url(./blocks/container-logo/__image/container-logo__image.css);
 
 @import url(./blocks/main/main.css);
 
+@import url(./blocks/navigate/__title/navigate__title.css);
+
 @import url(./blocks/navigation/navigation.css);
-@import url(./blocks/navigation/__title/navigation__title.css);
 @import url(./blocks/navigation/__list/navigation__list.css);
 @import url(./blocks/navigation/__point/navigation__point.css);
 @import url(./blocks/navigation/__link/navigation__link.css);
@@ -33,3 +34,10 @@
 @import url(./blocks/container-about/__subtitle/container-about__subtitle.css);
 @import url(./blocks/container-about/__more-information/container-about__more-information.css);
 @import url(./blocks/container-about/__image/container-about__image.css);
+@import url(./blocks/container-about/__subtitle-box/container-about__subtitle-box.css);
+
+.contaier-href {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

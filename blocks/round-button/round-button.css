@@ -1,4 +1,4 @@
-.button {
+.round-button {
     width: 40px;
     height: 40px;
     background-color: #FF3E79;
@@ -11,17 +11,17 @@
 
 
 
-.header__row>.button {
+.header__row>.round-button {
     display: none;
 }
 
 @media (max-width: 1024px) {
-    .header__row>.button {
+    .header__row>.round-button {
         display: block;
     }
 }
 
-.button:hover {
+.round-button:hover {
     cursor: pointer;
     background-color: #ff3e78ac;
 }

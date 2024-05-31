@@ -1,9 +1,9 @@
-.navigation__title {
+.navigate__title {
     display: none;
 }
 
 @media (max-width:1024px) {
-    .navigation__title {
+    .navigate__title {
         display: block;
         margin: 0;
         font-family: 'TT Lakes';
@@ -18,13 +18,13 @@
 }
 
 @media only screen and (min-width: 521px) and (max-width: 1024px) {
-    .navigation__title {
+    .navigate__title {
         padding: 24px 0 0 0;
         font-weight: 700;
     }
 }
 
-.navigation__title::before {
+.navigate__title::before {
     content: '';
     width: 4px;
     height: 40px;
@@ -34,7 +34,7 @@
 }
 
 @media only screen and (min-width: 521px) and (max-width: 1024px) {
-    .navigation__title::before {
+    .navigate__title::before {
         margin: 0 20px 0 0;
     }
 }

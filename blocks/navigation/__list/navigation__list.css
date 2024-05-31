@@ -1,22 +1,16 @@
 .navigation__list {
-    padding: 10px 0 0 0;
+    padding: 0;
     display: flex;
     list-style: none;
-    margin: 0 25px 0 32px;
+    margin: 0;
     justify-content: flex-start;
     white-space: nowrap;
     flex-wrap: wrap;
 }
 @media (max-width: 1024px){
     .navigation__list{
-        margin: 22px 0 32px 24px;
-        padding: 10px 0 0 0;
+        padding: 0;
         flex-wrap: nowrap;
         overflow-x: auto;
-    }
-}
-@media (max-width: 520px) {
-    .navigation__list{
-        margin: 14px 0 24px 16px;
     }
 }

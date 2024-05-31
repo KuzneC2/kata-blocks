@@ -5,39 +5,38 @@
     letter-spacing: 0.2px;
     color: #1B1C21;
     margin: 0 auto 0;
-    max-width: 490px; 
+    max-width: 490px;
 }
 
-.container-about__subtitle:nth-child(1){
-    margin: 16px 0 25px 0;
-}
+
+    .container-about__subtitle:nth-child(1) {
+        margin: 0 0 20px 0;
+    }
+
 
 @media only screen and (min-width: 656px) and (max-width: 1024px) {
+
     .container-about__subtitle {
-        margin: 0 auto 25px;
+        margin: 0 auto 0;
         line-height: 20px;
         max-width: 312px;
     }
-    
-    .container-about__subtitle:nth-of-type(2) {
-        display: block;
-        margin: 0;
-        overflow: hidden;
-        max-height: 40px;
-    }
 }
+
 @media (max-width: 656px) {
-    .container-about__subtitle:nth-of-type(2) {
-        display: none;
-    }
-    .container-about__subtitle:nth-child(1){
-        margin: 24px auto 16px;
+    .container-about__subtitle:nth-child(1) {
+        margin: 0 auto;
     }
 }
+
 
 @media (max-width: 656px) {
     .container-about__subtitle {
         max-width: 288px;
-        margin: 0 auto 0;
+        margin: 0 auto;
     }
 }
+
+
+
+
