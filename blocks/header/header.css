@@ -1,12 +1,16 @@
 .header {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     padding: 42px 0 0 0;
-    margin-bottom: 8px ;
+    margin-bottom: 8px ; */
+
+    display: none;
 }
 
 @media (max-width:1024px) {
     .header {
+        display: flex;
+
         min-height: 88px;
         border-bottom: 1px solid #D9FFF5;
         background-color: #ffffff;

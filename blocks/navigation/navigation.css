@@ -1,9 +1,9 @@
 .navigation{
-    margin: 0 25px 0 32px;
+    /* margin: 0 0 0 32px; */
 }
 
 @media (max-width: 1024px){
     .navigation{
-        margin: 32px 0 32px 24px;
+        /* padding: 32px 0 32px 24px; */
     }
 }

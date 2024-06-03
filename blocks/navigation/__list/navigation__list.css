@@ -1,5 +1,5 @@
 .navigation__list {
-    padding: 0;
+    padding: 0 0 0 32px;
     display: flex;
     list-style: none;
     margin: 0;
@@ -7,10 +7,17 @@
     white-space: nowrap;
     flex-wrap: wrap;
 }
-@media (max-width: 1024px){
-    .navigation__list{
-        padding: 0;
+
+@media (max-width: 1024px) {
+    .navigation__list {
+        padding: 0 0 0 24px;
         flex-wrap: nowrap;
         overflow-x: auto;
+    }
+}
+
+@media (max-width: 521px) {
+    .navigation__list {
+        padding: 0 0 0 16px;
     }
 }

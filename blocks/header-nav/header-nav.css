@@ -1,0 +1,7 @@
+@media (min-width: 1025px) {
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 42px 0 8px 0;
+    }
+}

@@ -3,26 +3,27 @@
 
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__row/header__row.css);
-@import url(./blocks/header/__title/header__title.css);
 
 @import url(./blocks/container-buttons/container-buttons.css);
 
 @import url(./blocks/container-buttons/__subtitle/container-buttons__subtitle.css);
+
 @import url(./blocks/round-button/round-button.css);
-@import url(./blocks/round-button/__icon/round-button__icon.css);
-@import url(./blocks/round-button/__icon/_burger/round-button__icon_burger.css);
-@import url(./blocks/round-button/__icon/_call/round-button__icon_call.css);
-@import url(./blocks/round-button/__icon/_support/round-button__icon_support.css);
-@import url(./blocks/round-button/__icon/_profile/round-button__icon_profile.css);
-@import url(./blocks/round-button/__icon/_repair/round-button__icon_repair.css);
-@import url(./blocks/round-button/__icon/_lupa/round-button__icon_lupa.css);
+@import url(./blocks/round-button/_burger/round-button_burger.css);
+@import url(./blocks/round-button/_call/round-button_call.css);
+@import url(./blocks/round-button/_support/round-button_support.css);
+@import url(./blocks/round-button/_profile/round-button_profile.css);
+@import url(./blocks/round-button/_repair/round-button_repair.css);
+@import url(./blocks/round-button/_lupa/round-button_lupa.css);
 
 @import url(./blocks/container-logo/container-logo.css);
 @import url(./blocks/container-logo/__image/container-logo__image.css);
 
 @import url(./blocks/main/main.css);
 
-@import url(./blocks/navigate/__title/navigate__title.css);
+@import url(./blocks/page/__title/page__title.css);
+
+@import url(./blocks/header-nav/header-nav.css);
 
 @import url(./blocks/navigation/navigation.css);
 @import url(./blocks/navigation/__list/navigation__list.css);
@@ -37,3 +38,4 @@
 @import url(./blocks/container-about/__subtitle-box/container-about__subtitle-box.css);
 
 @import url(./blocks/container-href/container-href.css);
+

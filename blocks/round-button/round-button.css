@@ -8,6 +8,12 @@
     border: none;
 }
 
+@media (min-width: 1025px) {
+    .round-button {
+        margin: 0;
+    }
+}
+
 
 
 
