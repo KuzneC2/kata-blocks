@@ -1,0 +1,13 @@
+.contacts-menu__mail {
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+    text-decoration: none;
+
+    margin: 16px 0 12px 0;
+    font-weight: bold;
+
+}
