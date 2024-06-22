@@ -21,7 +21,8 @@
     border-radius: 0 4px 4px 0;
     width: 4px;
     height: 32px;
-    margin: 0 -4px 0 0;
+    margin: -2px -4px -4px 0;
     transform: translateX(-24px);
     background-color: #41F6D7;
+    padding: 0;
 }
