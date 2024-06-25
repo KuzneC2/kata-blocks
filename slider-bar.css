@@ -1,0 +1,63 @@
+
+@import url(./blocks/slide-title/slide-title.css);
+
+@import url(./blocks/slider/slider.css);
+@import url(./blocks/slider/__box/slider__box.css);
+@import url(./blocks/slider/__button/slider__button.css);
+
+@import url(./blocks/slide-more/slide-more.css);
+
+@import url(./blocks/open/open.css);
+
+
+@import url();
+@import url();
+@import url();
+
+
+
+.swiper {
+    height: 154px;
+    display: none;
+}
+
+
+@media (max-width: 520px) {
+    .swiper {
+        display: block;
+    }
+}
+
+.swiper-slide__content {
+    margin: 16px 0 0 16px;
+}
+
+.swiper-slide-active {
+    width: 224px;
+}
+
+
+
+.swiper-pagination-bullet {
+    background-color: #979797;
+    width: 12px;
+    height: 12px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 6px 0;
+}
+ 
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+}

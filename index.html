@@ -4,56 +4,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Блок 1.4</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="burger-menu.css">
+    <title>Document</title>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.4/swiper-bundle.min.css" rel="stylesheet"> -->
+    <link href="swiper-bundle.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="slider-bar.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class="menu">
+    <section class="swipe-block">
+        <h2 class="slide-title">Ремонт техники различных брендов</h2>
 
-        <div class="header-menu">
-            <div class="header-menu__row">
-                <button class="round-button header-menu__button round-button_exit"></button>
-                <a class="header-menu__link" href="#">
-                    <img class="header-menu__logo" src="./images/Group.svg" alt="Логотип">
-                </a>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="slider-content swiper-slide__content slider__box">
+                        <img class='slider__image' src="./images/Lenovo.svg" alt="леново">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slider-content swiper-slide__content slider__box">
+                        <img class='slider__image' src="./images/Samsung.svg" alt="самсунг">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slider-content swiper-slide__content slider__box">
+                        <img class='slider__image' src="./images/apple.svg" alt="Эпл">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-slide__content swiper-slide slider__box">
+                        <img class='slider__image' src="./images/View-Sonic.svg" alt="Виев-соник">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slider-content swiper-slide__content slider__box">
+                        <img class='slider__image' src="./images/bosch.svg" alt="Бош">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slider-content swiper-slide__content  slider__box">
+                        <img class='slider__image' src="./images/hp.svg" alt="ЭйчПи">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class=" swiper-slide">
+                    <div class="slider-content swiper-slide__content slider__box">
+                        <img class='slider__image' src="./images/acer.svg" alt="Асер">
+                        <a href="#" class="slider__button"></a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="slider-content swiper-slide__content swiper-slide">
+                        <div class="slider__box">
+                            <img class='slider__image' src="./images/sony.svg" alt="Сони">
+                            <a href="#" class="slider__button"></a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <button class="round-button header-menu__button round-button_search"></button>
+            <div class="swiper-pagination"></div>
+
+
         </div>
-        
-        <nav class="navigate-menu">
-            <ul class="navigate-menu__list">
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Ремонт техники</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Услуги и сервисы</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Корпоративным клиентам</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Продавцам техники</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Партнерам</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Производителям</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Наши сервисные центры</a></li>
-                <li class="navigate-menu__item"><a class="navigate-menu__link" href="#">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <div class="contacts-menu">
-
-            <div class="container-buttons contacts-menu__buttons">
-                <a class="round-button contacts-menu__button round-button_call"></a>
-                <a class=" round-button contacts-menu__button round-button_support"></a>
-                <a class="round-button contacts-menu__button round-button_profile"></a>
+        <div class="slider">
+            <div class="slider__box">
+                <img class='slider__image' src="./images/Lenovo.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
             </div>
 
-            <a class="contacts-menu__mail" href="#">mail@cps.com</a>
-            <a class="contacts-menu__tel" href="88008908900">8 800 890 8900</a>
+            <div class="slider__box">
+                <img class='slider__image' src="./images/Samsung.svg" alt="самсунг">
+                <a href="#" class="slider__button"></a>
+            </div>
 
+            <div class="slider__box">
+                <img class='slider__image' src="./images/apple.svg" alt="Эпл">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/View-Sonic.svg" alt="Виев-соник">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/bosch.svg" alt="Бош">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/hp.svg" alt="ЭйчПи">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/acer.svg" alt="Асер">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/sony.svg" alt="Сони">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/Lenovo.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/acer.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/sony.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/Lenovo.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
+            <div class="slider__box">
+                <img class='slider__image' src="./images/acer.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/sony.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
+
+            <div class="slider__box">
+                <img class='slider__image' src="./images/Lenovo.svg" alt="леново">
+                <a href="#" class="slider__button"></a>
+            </div>
         </div>
 
-        <button class="container-language__lang focus">RU</button>
-        <button class="container-language__lang">EN</button>
-        <button class="container-language__lang">CH</button>
-
+        <p class="slide-more">Показать все</p>
     </section>
 
+    <script src="swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
 </body>
 
 </html>
