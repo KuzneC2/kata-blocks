@@ -11,7 +11,7 @@
 }
 
 .slide-more::before {
-    content: url(../../../images/more-icon.svg);
+    content: url(../../images/more-icon.svg);
     width: 24px;
     height: 24px;
     margin: 0 8px 0 0;
