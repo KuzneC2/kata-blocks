@@ -1,1 +1,1 @@
-Ccылка на GitHubPages: https://kuznec2.github.io/block1.3/
+Ccылка на GitHubPages: https://kuznec2.github.io/kata-blocks/
