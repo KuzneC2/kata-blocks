@@ -2,6 +2,6 @@
     .header-nav {
         display: flex;
         justify-content: space-between;
-        margin: 42px 0 8px 0;
+        padding: 42px 0 8px 0;
     }
 }
