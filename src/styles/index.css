@@ -1,3 +1,4 @@
+@import url(./swiper-bundle.min.css);
 @import url(../fonts/TTLakes/stylesheet.css);
 @import url(../blocks/body/body.css);
 
@@ -65,3 +66,62 @@
 @import url(../blocks/contacts-menu/__tel/contacts-menu__tel.css);
 
 @import url(../blocks/.container-language/__lang/container-language__lang.css);
+
+
+/* -----------------------slider----------------------- */
+
+@import url(../blocks/slide-title/slide-title.css);
+
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__box/slider__box.css);
+@import url(../blocks/slider/__button/slider__button.css);
+
+@import url(../blocks/slide-more/slide-more.css);
+
+@import url(../blocks/open/open.css);
+
+
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper-slide/__content/swiper-slide__content.css);
+@import url(../blocks/swiper-slide/-active/swiper-slide-active.css);
+
+@import url(../blocks/swiper-pagination/-bullet/swiper-pagination-bullet.css);
+@import url(../blocks/swiper-pagination/-fraction/swiper-pagination-fraction.css);
+
+
+/* ----------------------------second-slider--------------------------------- */
+
+
+
+.second-slider {
+    padding: 50px 0 0 0;
+}
+
+.slider__title {
+    margin: 16px auto 0 16px;
+
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+
+    color: #1B1C21;
+}
+
+.slider__box_big {
+    padding: 0;
+    height: 160px;
+    flex-direction: column;
+}
+
+.slider__bottom_right-bottom {
+    margin: 0 16px 16px auto;
+}
+
+.swiper-second {
+    height: 216px;
+}
+
+.swiper-pagination_second:nth-child(2) {
+    bottom: 9px;
+}

@@ -1,0 +1,11 @@
+.swiper {
+    height: 154px;
+    display: none;
+}
+
+
+@media (max-width: 520px) {
+    .swiper {
+        display: block;
+    }
+}

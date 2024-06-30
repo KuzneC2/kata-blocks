@@ -12,16 +12,7 @@
     }
 }
 
-/* .container-buttons:nth-of-type(1) {
-    display: none;
-} */
 
-
-@media (max-width: 1024px) {
-    /* .container-buttons:nth-of-type(1) {
-        display: flex;
-    } */
-}
 
 @media only screen and (min-width: 521px) and (max-width: 1024px) {
     .container-buttons:nth-child(1)::after {
