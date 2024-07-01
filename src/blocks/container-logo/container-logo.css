@@ -8,7 +8,7 @@
     opacity: 0.7;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .container-logo {
         display: block;
     }
@@ -18,7 +18,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 550px) and (max-width: 1024px) {
+@media only screen and (min-width: 550px) and (max-width: 1200px) {
     .container-logo::before {
         content: '';
         width: 2px;

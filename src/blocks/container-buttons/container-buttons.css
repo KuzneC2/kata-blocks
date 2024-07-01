@@ -6,7 +6,7 @@
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .container-buttons {
         margin: 0 0px 0 0;
     }
@@ -14,7 +14,7 @@
 
 
 
-@media only screen and (min-width: 521px) and (max-width: 1024px) {
+@media only screen and (min-width: 521px) and (max-width: 1200px) {
     .container-buttons:nth-child(1)::after {
         content: '';
         width: 2px;
@@ -34,9 +34,4 @@
     }
 }
 
-@media (max-width:1024px) {
 
-    .container-buttons_desktop {
-        display: none;
-    }
-}

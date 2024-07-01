@@ -41,8 +41,6 @@ for (let i = 0; i < slideMore.length; i++) {
         else {
             slideMore[i].textContent = 'Показать все'
         }
-
-
     })
 }
 

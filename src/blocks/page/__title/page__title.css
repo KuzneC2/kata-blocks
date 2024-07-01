@@ -9,7 +9,7 @@
     display: flex;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1200px) {
     .page__title {
         display: block;
         margin: 0;
@@ -24,7 +24,7 @@
     }
 }
 
-@media only screen and (min-width: 521px) and (max-width: 1024px) {
+@media only screen and (min-width: 521px) and (max-width: 1200px) {
     .page__title {
         padding: 24px 0 0 0;
         font-weight: 700;

@@ -7,6 +7,8 @@
 
 @import url(../blocks/container-buttons/container-buttons.css);
 
+@import url(../blocks/container-buttons/_desctop/container-buttons_desctop.css);
+
 @import url(../blocks/container-buttons/__subtitle/container-buttons__subtitle.css);
 
 @import url(../blocks/round-button/round-button.css);

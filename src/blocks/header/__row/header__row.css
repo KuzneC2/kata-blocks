@@ -5,7 +5,7 @@
 }
 
 
-@media only screen and (min-width: 521px) and (max-width: 1024px) {
+@media only screen and (min-width: 521px) and (max-width: 1200px) {
     .header__row {
         margin: 0 0 0 24px;
     }
