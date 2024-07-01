@@ -127,3 +127,130 @@
 .swiper-pagination_second:nth-child(2) {
     bottom: 9px;
 }
+
+
+/* ------------------------------------slider-third-------------------------- */
+
+
+* {
+    /* outline: 1px solid green; */
+}
+
+.slider-table {
+    margin: 0 auto;
+    width: calc(100% - 64px);
+    border-radius: 6px;
+
+}
+
+@media (max-width: 860px) {
+    .slider-table{
+        width: calc(100% - 48px);
+    }
+}
+
+.slider-table__row {
+    box-sizing: border-box;
+    padding: 0px 24px;
+    background-color: #fff;
+
+}
+
+@media (max-width: 860px) {
+    .slider-table__row{
+        padding: 0px 16px;
+    }
+}
+
+.slider-table__container {
+    display: grid;
+    grid-template-columns: minmax(354px, 470px) minmax(77px, 230px) minmax(82px, 200px) minmax(119px, 120px);
+    column-gap: 20px;
+    align-items: center;
+
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+
+}
+
+
+
+
+
+
+
+.slider-table__subtitle {
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    color: #1B1C21;
+
+    margin: 0;
+    text-align: left;
+
+}
+
+.slider-table__row_transparent {
+
+    line-height: 16px;
+    color: #7E7E82;
+
+    mix-blend-mode: normal;
+    opacity: 0.72;
+
+
+
+    background-color: transparent;
+}
+
+.slider-table__button {
+
+
+    background-color: #FF3E79;
+
+    /* Заказать */
+    font-family: 'TT Lakes';
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    padding: 4px 4px 4px 12px;
+
+    border-radius: 16px;
+
+
+    background-image: url(../images/sliderTableBtn.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
+    color: #FFFFFF;
+
+
+}
+
+
+.slide-subtitle{
+font-family: 'TT Lakes';
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 0.2px;
+
+color: #1B1C21;
+
+max-width: 421px;
+margin: 0;
+padding: 32px 0 16px 32px;
+
+}
+
+.slide-hyperlink{
+
+
+}
+
+/* ------------------------------------------------------------------------------------ */
