@@ -1,0 +1,11 @@
+.swiper_third {
+    height: 260px;
+    display: none;
+    position: relative;
+}
+
+@media (max-width: 520px) {
+    .swiper_third {
+        display: block;
+    }
+}

@@ -1,0 +1,5 @@
+.modal_open {
+    display: block;
+    transition: 1s;
+    visibility: visible;
+}

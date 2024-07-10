@@ -1,0 +1,5 @@
+.slider__box_big {
+    padding: 0;
+    height: 160px;
+    flex-direction: column;
+}

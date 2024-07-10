@@ -1,0 +1,24 @@
+.slider-table {
+    margin: 0 auto;
+    width: calc(100% - 64px);
+    border-radius: 6px;
+
+}
+
+@media (max-width: 860px) {
+    .slider-table {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 767px) {
+    .slider-table {
+        width: calc(100% - 24px);
+    }
+}
+
+@media (max-width: 520px) {
+    .slider-table {
+        display: none;
+    }
+}

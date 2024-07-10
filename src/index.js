@@ -2,7 +2,7 @@ import './styles/index.css';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
-const swiper = new Swiper('.swiper-first', {
+const swiper = new Swiper('.swiper_first', {
     modules: [Navigation, Pagination],
     direction: 'horizontal',
     loop: true,
@@ -44,7 +44,7 @@ for (let i = 0; i < slideMore.length; i++) {
     })
 }
 
-const swiperSecond = new Swiper('.swiper-second',{
+const swiperSecond = new Swiper('.swiper_second',{
     modules: [Navigation, Pagination],
     direction: 'horizontal',
     loop: true,
@@ -70,7 +70,7 @@ const swiperSecond = new Swiper('.swiper-second',{
 
 });
 
-const swiperThird = new Swiper('.swiper-third',{
+const swiperThird = new Swiper('.swiper_third',{
     modules: [Navigation, Pagination],
     direction: 'horizontal',
     loop: true,
@@ -95,3 +95,17 @@ const swiperThird = new Swiper('.swiper-third',{
 
 
 });
+
+
+const buttonOpenNavbar = document.querySelector('.button-open-navbar');
+const modalNavbar = document.querySelector('.modal-navbar');
+
+const buttonCloseNavbar = document.querySelector('.round-button_exit');
+
+buttonCloseNavbar.addEventListener('click', function(){
+    modalNavbar.classList.remove('modal_open')
+})
+
+buttonOpenNavbar.addEventListener('click', function(){
+    modalNavbar.classList.add('modal_open')
+})

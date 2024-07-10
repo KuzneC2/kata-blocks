@@ -1,0 +1,10 @@
+.swiper_second {
+    height: 216px;
+    display: none;
+    position: relative;
+}
+@media (max-width: 520px) {
+    .swiper_second {
+        display: block;
+    }
+}

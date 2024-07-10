@@ -1,0 +1,19 @@
+.footer-flex__subtitle {
+    margin: 0;
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #7E7E82;
+
+    mix-blend-mode: normal;
+    opacity: 0.72;
+
+}
+
+@media (max-width: 720px) {
+    .footer-flex__subtitle {
+        margin: 0 0 16px 0;
+    }
+}

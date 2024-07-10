@@ -1,0 +1,15 @@
+.modal {}
+
+@media (max-width:1200px) {
+    .modal {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2;
+        position: fixed;
+        background-color: rgba(113, 110, 110, 0.641);
+        visibility: hidden;
+        transition: 1s;
+    }
+}
+

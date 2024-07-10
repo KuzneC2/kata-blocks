@@ -1,0 +1,10 @@
+.footer-flex__subtitle_team-name {
+    max-width: 218px;
+    text-align: left;
+}
+
+@media (max-width: 720px) {
+    .footer-flex__subtitle_team-name {
+        text-align: center;
+    }
+}

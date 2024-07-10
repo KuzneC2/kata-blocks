@@ -1,0 +1,17 @@
+.footer-flex__subtitle_disclam {
+    max-width: 330px;
+    text-align: end;
+}
+
+@media (max-width: 900px) {
+    .footer-flex__subtitle_disclam {
+        max-width: 213px;
+    }
+}
+
+@media (max-width: 720px) {
+    .footer-flex__subtitle_disclam {
+        max-width: none;
+        text-align: center;
+    }
+}
