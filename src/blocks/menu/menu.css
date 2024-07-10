@@ -16,4 +16,10 @@
         }
     }
 
-   
+
+   @media (max-width: 520px) {
+        .menu{
+           min-height: 676px;
+           width: 100%;
+        }
+    }

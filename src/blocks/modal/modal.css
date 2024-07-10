@@ -5,11 +5,8 @@
         display: none;
         width: 100vw;
         height: 100vh;
-        z-index: 2;
+        z-index: 3;
         position: fixed;
-        background-color: rgba(113, 110, 110, 0.641);
-        visibility: hidden;
-        transition: 1s;
+        background-color: #ffffff;
     }
 }
-
