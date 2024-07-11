@@ -1,0 +1,4 @@
+.container-about__subtitle-box_open{
+    max-height: 100%;
+    transition: 1s;
+}

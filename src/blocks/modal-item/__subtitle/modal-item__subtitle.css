@@ -1,0 +1,18 @@
+.modal-item__subtitle {
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #7E7E82;
+
+    max-width: 376px;
+    margin: 0;
+    padding: 16px 0;
+
+}
+
+@media (max-width:560px) {
+    .modal-item_subtitle {
+        max-width: 288px;
+    }
+}

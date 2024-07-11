@@ -2,6 +2,11 @@ import './styles/index.css';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
+
+
+
+
+
 const swiper = new Swiper('.swiper_first', {
     modules: [Navigation, Pagination],
     direction: 'horizontal',
@@ -120,6 +125,10 @@ buttonOpenCall.forEach(btn => {
     })
 });
 
+// modalCall.addEventListener('click', function () {
+//     modalCall.classList.remove('modal_open');
+// })
+
 buttonCloseCall.addEventListener('click', function () {
     modalCall.classList.remove('modal_open');
 })
@@ -128,6 +137,7 @@ buttonCloseCall.addEventListener('click', function () {
 const buttonOpenHelp = document.querySelectorAll('.button-modal-help');
 const modalHelp = document.querySelector('.modal-help');
 const modalCloseHelp = document.querySelector('.modal__button_exit_help');
+
 buttonOpenHelp.forEach(btn => {
     btn.addEventListener('click', function () {
         modalHelp.classList.add('modal_open');
@@ -137,3 +147,49 @@ buttonOpenHelp.forEach(btn => {
 modalCloseHelp.addEventListener('click', function () {
     modalHelp.classList.remove('modal_open');
 })
+
+
+
+
+const targetCall = document.querySelector('.modal-item__content_call');
+// Добавляем обработчик события click к элементу document
+modalCall.addEventListener('click', function (event) {
+    if (!targetCall.contains(event.target)) {
+        console.log('Клик был выполнен вне заданной области');
+        modalCall.classList.remove('modal_open')
+    }
+});
+
+
+const targetHelp = document.querySelector('.modal-item__content_help');
+// Добавляем обработчик события click к элементу document
+modalHelp.addEventListener('click', function (event) {
+    if (!targetHelp.contains(event.target)) {
+        console.log('Клик был выполнен вне заданной области');
+        modalHelp.classList.remove('modal_open')
+    }
+});
+
+
+const targetMenu = document.querySelector('.modal-item__content_menu');
+// Добавляем обработчик события click к элементу document
+modalNavbar.addEventListener('click', function (event) {
+    if (!targetMenu.contains(event.target)) {
+        console.log('Клик был выполнен вне заданной области');
+        modalNavbar.classList.remove('modal_open')
+    }
+});
+
+const buttonOpenText = document.querySelector('.container-about__more-information');
+const textInformation = document.querySelector('.container-about__subtitle-box');
+
+buttonOpenText.addEventListener('click', function () {
+    textInformation.classList.toggle('container-about__subtitle-box_open');
+    if (buttonOpenText.textContent === 'Читать далее') {
+        buttonOpenText.textContent = 'Свернуть';
+    }
+    else {
+        buttonOpenText.textContent = 'Читать далее';
+    }
+});
+

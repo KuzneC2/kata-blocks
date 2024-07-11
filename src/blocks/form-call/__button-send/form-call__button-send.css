@@ -1,0 +1,18 @@
+.form-call__button-send {
+    margin: 0 32px 0 auto;
+    width: 136px;
+    border: none
+}
+
+@media (max-width: 560px) {
+    .form-call__button-send {
+        margin: 0 0 0 50%;
+    }
+}
+
+@media (max-width: 440px) {
+    .form-call__button-send {
+        margin: 0 32px 0 auto;
+
+    }
+}
