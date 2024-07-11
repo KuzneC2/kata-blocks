@@ -40,7 +40,7 @@
 
                 <div class="container-buttons contacts-menu__buttons">
                     <a class="round-button contacts-menu__button round-button_call button-modal-call"></a>
-                    <a class=" round-button contacts-menu__button round-button_support"></a>
+                    <a class=" round-button contacts-menu__button round-button_support button-modal-help"></a>
                     <a class="round-button contacts-menu__button round-button_profile"></a>
                 </div>
 
@@ -55,23 +55,44 @@
 
         </div>
 
-    </section> 
+    </section>
 
     <section class="modal modal-call">
         <div class="modal-call__content">
-            <button class="modal__button_exit round-button round-button_exit"></button>
+            <button class="modal__button_exit_call round-button round-button_exit"></button>
             <h2 class="modal-call__title">Заказать звонок</h2>
             <form class="form modal-call__form">
                 <input class="form__input" type="tel" placeholder="Телефон" minlength="11" maxlength="14" required>
+                <p class="modal-call__subtitle">Нажимая “отправить”, вы даете согласие на <span
+                        class="modal-call__subtitle_color_pink">обработку персональных</span>данных и
+                    соглашаетесь с нашей <span class="modal-call__subtitle_color_pink">политикой
+                        конфиденциальности</span>
+                </p>
+                <button type="submit" class="slider-table__button form-call__button-send">ОТПРАВИТЬ</button>
             </form>
-            <p class="modal-call__subtitle">Нажимая “отправить”, вы даете согласие на <span
-                    class="modal-call__subtitle_color_pink">обработку персональных</span>данных и
-                соглашаетесь с нашей <span class="modal-call__subtitle_color_pink">политикой конфиденциальности</span>
-            </p>
-            <a href="" class="slider-table__button form-call__button-send">ОТПРАВИТЬ</a>
         </div>
     </section>
 
+
+    <section class="modal modal-help">
+        <div class="modal-call__content">
+            <button class="modal__button_exit_help round-button round-button_exit "></button>
+            <h2 class="modal-call__title">Обратная связь</h2>
+            <form class="form modal-call__form">
+                <input class="form__input" type="text" placeholder="Имя" minlength="2" maxlength="30" required>
+                <input class="form__input" type="tel" placeholder="Телефон" minlength="11" maxlength="14" required>
+                <input class="form__input" type="email" placeholder="Электронная почта" minlength="5" maxlength="40"
+                    required>
+                <textarea class="form__input form__input_textarea" type="" placeholder="Сообщение" minlength="3" required></textarea>
+                <p class="modal-call__subtitle">Нажимая “отправить”, вы даете согласие на <span
+                        class="modal-call__subtitle_color_pink">обработку персональных</span>данных и
+                    соглашаетесь с нашей <span class="modal-call__subtitle_color_pink">политикой
+                        конфиденциальности</span>
+                </p>
+                <button type="submit" class="slider-table__button form-call__button-send">ОТПРАВИТЬ</button>
+            </form>
+        </div>
+    </section>
 
 
     <header class="header">
@@ -86,7 +107,7 @@
         <div class="header__row">
             <div class="container-buttons">
                 <a class="round-button round-button_call button-modal-call"></a>
-                <a class=" round-button round-button_support"></a>
+                <a class=" round-button round-button_support button-modal-help"></a>
                 <a class="round-button round-button_profile"></a>
             </div>
             <div class="container-buttons">

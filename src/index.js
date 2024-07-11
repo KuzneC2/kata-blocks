@@ -108,12 +108,11 @@ buttonCloseNavbar.addEventListener('click', function () {
 
 buttonOpenNavbar.addEventListener('click', function () {
     modalNavbar.classList.add('modal_open')
-    console.log('click')
 })
 
 const buttonOpenCall = document.querySelectorAll('.button-modal-call');
 const modalCall = document.querySelector('.modal-call')
-const buttonCloseCall = document.querySelector('.modal__button_exit')
+const buttonCloseCall = document.querySelector('.modal__button_exit_call')
 
 buttonOpenCall.forEach(btn => {
     btn.addEventListener('click', function () {
@@ -121,6 +120,20 @@ buttonOpenCall.forEach(btn => {
     })
 });
 
-buttonCloseCall.addEventListener('click', function(){
-    modalCall.classList.remove('modal_open')
+buttonCloseCall.addEventListener('click', function () {
+    modalCall.classList.remove('modal_open');
+})
+
+
+const buttonOpenHelp = document.querySelectorAll('.button-modal-help');
+const modalHelp = document.querySelector('.modal-help');
+const modalCloseHelp = document.querySelector('.modal__button_exit_help');
+buttonOpenHelp.forEach(btn => {
+    btn.addEventListener('click', function () {
+        modalHelp.classList.add('modal_open');
+    })
+});
+
+modalCloseHelp.addEventListener('click', function () {
+    modalHelp.classList.remove('modal_open');
 })
