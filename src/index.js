@@ -44,7 +44,7 @@ for (let i = 0; i < slideMore.length; i++) {
     })
 }
 
-const swiperSecond = new Swiper('.swiper_second',{
+const swiperSecond = new Swiper('.swiper_second', {
     modules: [Navigation, Pagination],
     direction: 'horizontal',
     loop: true,
@@ -70,7 +70,7 @@ const swiperSecond = new Swiper('.swiper_second',{
 
 });
 
-const swiperThird = new Swiper('.swiper_third',{
+const swiperThird = new Swiper('.swiper_third', {
     modules: [Navigation, Pagination],
     direction: 'horizontal',
     loop: true,
@@ -102,19 +102,25 @@ const modalNavbar = document.querySelector('.modal-navbar');
 
 const buttonCloseNavbar = document.querySelector('.round-button_exit');
 
-buttonCloseNavbar.addEventListener('click', function(){
+buttonCloseNavbar.addEventListener('click', function () {
     modalNavbar.classList.remove('modal_open')
 })
 
-buttonOpenNavbar.addEventListener('click', function(){
+buttonOpenNavbar.addEventListener('click', function () {
     modalNavbar.classList.add('modal_open')
     console.log('click')
 })
 
+const buttonOpenCall = document.querySelectorAll('.button-modal-call');
+const modalCall = document.querySelector('.modal-call')
+const buttonCloseCall = document.querySelector('.modal__button_exit')
 
+buttonOpenCall.forEach(btn => {
+    btn.addEventListener('click', function () {
+        modalCall.classList.add('modal_open');
+    })
+});
 
-// modalNavbar.style.overflowY = 'auto';
-
-// modalNavbar.addEventListener('wheel', function(e) {
-//     e.stopPropagation();
-//   });
+buttonCloseCall.addEventListener('click', function(){
+    modalCall.classList.remove('modal_open')
+})
