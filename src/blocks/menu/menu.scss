@@ -1,4 +1,4 @@
-.menu{
+.menu {
     min-height: 1960px;
     box-sizing: border-box;
     position: absolute;
@@ -7,18 +7,16 @@
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
     background-color: #fff;
     z-index: 3;
-}
+
     @media (max-width: 1200px) {
-        .menu{
-            overflow: auto;
-            min-height: 1024px;
-        }
+        overflow: auto;
+        min-height: 1024px;
     }
 
 
-   @media (max-width: 520px) {
-        .menu{
-           min-height: 676px;
-           width: 100%;
-        }
+
+    @media (max-width: 520px) {
+        min-height: 676px;
+        width: 100%;
     }
+}

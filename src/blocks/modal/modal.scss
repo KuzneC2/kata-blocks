@@ -3,13 +3,40 @@
     height: 100%;
     z-index: 3;
     background-color: #ffffff;
-}
+    
+    
+    .modal__button_exit_call {
+        display: block;
+        position: absolute;
+        top: 32px;
+        left: -73px;
+    
+        @media (max-width: 560px) {
+            position: static;
+            margin: 24px 0 0 0;
+        }
+    }
+    
+    .modal__button_exit_help {
+        display: block;
+        position: absolute;
+        top: 32px;
+        left: -73px;
+    
+        @media (max-width: 560px) {
+            position: static;
+            margin: 24px 0 0 0;
+        }
+    }
+    
 
-@media (max-width:1200px) {
-    .modal {
-        /* position: fixed; */
+
+
+    @media (max-width:1200px) {
         display: none;
-
-
     }
 }
+
+
+
+

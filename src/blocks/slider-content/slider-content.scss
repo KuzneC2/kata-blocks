@@ -1,0 +1,13 @@
+.slider-content__container-subtitles {
+	margin: 0 10px 0 0;
+}
+.slider-content__container {
+	display: flex;
+	flex-direction: column;
+	min-width: 81px;
+}
+.slider-content__container-row {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}

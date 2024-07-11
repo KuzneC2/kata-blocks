@@ -3,4 +3,29 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 8px 0 0;
+
+    .header-menu__button {
+        margin: 0 16px 0 0;
+
+
+        &:nth-child(1) {
+            display: none;
+
+            @media (max-width: 1200px) {
+                margin: 0 16px 0 0;
+                display: block;
+            }
+        }
+    }
+
+    .header-menu__logo {
+        width: 97px;
+        height: 51px;
+    }
+
+    .header-menu__row {
+        display: flex;
+        align-items: center;
+    }
+
 }

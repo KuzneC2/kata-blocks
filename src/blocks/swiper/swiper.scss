@@ -1,11 +1,26 @@
+
 .swiper {
-    /* height: 154px; */
-    display: none;
+	display: none;
 }
-
-
+.swiper_first {
+	height: 154px;
+}
+.swiper_second {
+	height: 216px;
+	display: none;
+	position: relative;
+	@media (max-width: 520px) { display: block;
+}
+} 
+	.swiper_third {
+		height: 260px;
+		display: none;
+		position: relative;
+		@media (max-width: 520px) { display: block;
+	}
+}
 @media (max-width: 520px) {
-    .swiper {
-        display: block;
-    }
+	.swiper {
+		display: block;
+	}
 }

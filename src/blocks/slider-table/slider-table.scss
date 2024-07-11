@@ -2,12 +2,76 @@
     margin: 0 auto;
     width: calc(100% - 64px);
     border-radius: 6px;
+}
 
+.slider-table__button {
+    background-color: #FF3E79;
+    font-family: 'TT Lakes';
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: left;
+    padding: 4px 4px 4px 12px;
+    border-radius: 16px;
+    background-image: url(../../images/sliderTableBtn.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    min-width: 119px;
+    margin: 7px 0 0 0;
+}
+
+.slider-table__container {
+    display: grid;
+    grid-template-columns: minmax(354px, 470px) minmax(77px, 230px) minmax(82px, 200px) minmax(119px, 120px);
+    column-gap: 9%;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.slider-table__row {
+    box-sizing: border-box;
+    padding: 0px 24px;
+    background-color: #fff;
+}
+
+.slider-table__row_transparent {
+    line-height: 16px;
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    background-color: transparent;
+}
+
+.slider-table__subtitle {
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    margin: 0;
+    text-align: left;
+}
+
+.slider-table__subtitle_color_grey {
+    color: #7E7E82;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    margin: 0 4px 0 0;
 }
 
 @media (max-width: 860px) {
     .slider-table {
         width: calc(100% - 48px);
+    }
+
+    .slider-table__row {
+        padding: 0px 16px;
     }
 }
 
@@ -15,10 +79,29 @@
     .slider-table {
         width: calc(100% - 24px);
     }
+
+    .slider-table__container {
+        grid-template-columns: minmax(190px, 470px) minmax(77px, 230px) minmax(82px, 200px) minmax(119px, 120px);
+        column-gap: 0;
+    }
+
+    .slider-table__subtitle {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 520px) {
     .slider-table {
         display: none;
+    }
+
+    .slider-table__subtitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .slider-table__container {
+        column-gap: 20px;
     }
 }

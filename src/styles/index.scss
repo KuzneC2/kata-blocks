@@ -1,155 +1,53 @@
 @import url(./swiper-bundle.min.scss);
 @import url(../fonts/TTLakes/stylesheet.scss);
 @import url(../blocks/body/body.scss);
-
 @import url(../blocks/header/header.scss);
-@import url(../blocks/header/__row/header__row.scss);
-
 @import url(../blocks/modal/modal.scss);
-
 @import url(../blocks/container-buttons/container-buttons.scss);
-
-@import url(../blocks/container-buttons/_desctop/container-buttons_desctop.scss);
-
-@import url(../blocks/container-buttons/__subtitle/container-buttons__subtitle.scss);
-
 @import url(../blocks/round-button/round-button.scss);
-@import url(../blocks/round-button/_burger/round-button_burger.scss);
-@import url(../blocks/round-button/_call/round-button_call.scss);
-@import url(../blocks/round-button/_support/round-button_support.scss);
-@import url(../blocks/round-button/_profile/round-button_profile.scss);
-@import url(../blocks/round-button/_repair/round-button_repair.scss);
-@import url(../blocks/round-button/_lupa/round-button_lupa.scss);
-@import url(../blocks/round-button/_exit/round-button_exit.scss);
-@import url(../blocks/round-button/_search/round-button_search.scss);
-
 @import url(../blocks/container-logo/container-logo.scss);
-@import url(../blocks/container-logo/__image/container-logo__image.scss);
-
 @import url(../blocks/main/main.scss);
-
-@import url(../blocks/page/__title/page__title.scss);
-
+@import url(../blocks/page-title/page-title.scss);
 @import url(../blocks/header-nav/header-nav.scss);
-
 @import url(../blocks/navigation/navigation.scss);
-@import url(../blocks/navigation/__list/navigation__list.scss);
-@import url(../blocks/navigation/__point/navigation__point.scss);
-@import url(../blocks/navigation/__link/navigation__link.scss);
-
 @import url(../blocks/container-about/container-about.scss);
-@import url(../blocks/container-about/__collumn/container-about-collumn.scss);
-@import url(../blocks/container-about/__subtitle/container-about__subtitle.scss);
-@import url(../blocks/container-about/__more-information/container-about__more-information.scss);
-@import url(../blocks/container-about/__image/container-about__image.scss);
-@import url(../blocks/container-about/__subtitle-box/container-about__subtitle-box.scss);
-
 @import url(../blocks/container-href/container-href.scss);
 /* -----------------burger-menu---------------------------------------- */
 @import url(../blocks/menu/menu.scss);
-
 @import url(../blocks/header-menu/header-menu.scss);
-@import url(../blocks/header-menu/__row/header-menu__row.scss);
-@import url(../blocks/header-menu/__logo/header-menu__logo.scss);
-@import url(../blocks/header-menu/__button/header-menu__button.scss);
-
 @import url(../blocks/navigate-menu/navigate-menu.scss);
-@import url(../blocks/navigate-menu/__list/navigate-menu__list.scss);
-@import url(../blocks/navigate-menu/__item/navigate-menu__item.scss);
-@import url(../blocks/navigate-menu/__link/navigate-menu__link.scss);
-
-@import url(../blocks/contacts-menu/contacts-menu.scss);
-@import url(../blocks/contacts-menu/__buttons/contacts-menu__buttons.scss);
-@import url(../blocks/contacts-menu/__mail/contacts-menu__mail.scss);
-@import url(../blocks/contacts-menu/__tel/contacts-menu__tel.scss);
-
+@import url(../blocks/contacts-menu/contacts-menu.scss); //
 @import url(../blocks/.container-language/__lang/container-language__lang.scss);
 /* -----------------------slider----------------------- */
 @import url(../blocks/slide-title/slide-title.scss);
-
 @import url(../blocks/slider/slider.scss);
 @import url(../blocks/slider/__box/slider__box.scss);
 @import url(../blocks/slider/__button/slider__button.scss);
-
 @import url(../blocks/slide-more/slide-more.scss);
-
 @import url(../blocks/open/open.scss);
-
-
 @import url(../blocks/swiper/swiper.scss);
 @import url(../blocks/swiper-slide/__content/swiper-slide__content.scss);
 @import url(../blocks/swiper-slide/-active/swiper-slide-active.scss);
-
 @import url(../blocks/swiper-pagination/-bullet/swiper-pagination-bullet.scss);
 @import url(../blocks/swiper-pagination/-fraction/swiper-pagination-fraction.scss);
 /* ----------------------------second-slider--------------------------------- */
-
-@import url(../blocks/swiper/_first/swiper_first.scss);
-
 @import url(../blocks/slider/__title/slider__title.scss);
 @import url(../blocks/slider/__box/_big/slider__box_big.scss);
 @import url(../blocks/slider/__bottom/_right-bottom/slider__bottom_right-bottom.scss);
-@import url(../blocks/swiper/_second/swiper_second.scss);
-
 @import url(../blocks/swiper-pagination/_second/swiper-pagination_second.scss);
-
 @import url(../blocks/swiper-pagination/_third/swiper-pagination_third.scss);
-
 @import url(../blocks/slider-table/slider-table.scss);
-
-@import url(../blocks/slider-table/__row/slider-table__row.scss);
-
-@import url(../blocks/slider-table/__container/slider-table__container.scss);
-
-@import url(../blocks/slider-table/__subtitle/slider-table__subtitle.scss);
-
-@import url(../blocks/slider-table/__row/_transparent/slider-table__row_transparent.scss);
-
-@import url(../blocks/slider-table/__button/slider-table__button.scss);
-
 @import url(../blocks/slide-subtitle/slide-subtitle.scss);
-
 @import url(../blocks/slide-hyperlink/slide-hyperlink.scss);
-
 /* ---------------------------thhird slider---------------------------------------- */
-
-@import url(../blocks/swiper/_third/swiper_third.scss);
-
 @import url(../blocks/slider/__box/_biggest/slider__box_biggest.scss);
-
-@import url(../blocks/slider-content/__container/slider-content__container.scss);
-@import url(../blocks/slider-content/__container-row/slider-content__container-row.scss);
-@import url(../blocks/slider-table/__subtitle/_color/_grey/slider-table__subtitle_color_grey.scss);
-
-@import url(../blocks/slider-content/__container-subtitles/slider-content__container-subtitles.scss);
+@import url(../blocks/slider-content/slider-content.scss);
 /* ----------------------------------------footer----------------------------------------------------- */
 @import url(../blocks/footer/footer.scss);
 @import url(../blocks/footer-flex/footer-flex.scss);
-@import url(../blocks/footer-flex/__subtitle/.footer-flex__subtitle.scss);
-@import url(../blocks/footer-flex/__subtitle/_team-name/footer-flex__subtitle_team-name.scss);
-@import url(../blocks/footer-flex/__subtitle/_disclam/footer-flex__subtitle_disclam.scss);
-@import url(../blocks/footer-flex/__subtitle/_politic/footer-flex__subtitle_politic.scss);
-
-
-
-
 /* ----------------------------modal call-------------------------------------- */
-
-@import url(../blocks/body/modal-item/modal-item.scss);
-@import url(../blocks/modal-item/__content/modal-item__content.scss);
-@import url(../blocks/modal-item/__title/modal-item__title.scss);
-
-@import url(../blocks/form/__input/form__input.scss);
+@import url(../blocks/modal-item/modal-item.scss); //
 @import url(../blocks/form-call/__button-send/form-call__button-send.scss);
-
-@import url(../blocks/modal-item/__subtitle/modal-item__subtitle.scss);
-@import url(../blocks/modal-item/__subtitle/_color/_pink/modal-item__subtitle_color_pink.scss);
-@import url(../blocks/modal/__button/_exit/_call/modal__button_exit_call.scss);
-
 @import url(../blocks/modal-help/modal-help.scss);
 @import url(../blocks/form/form.scss);
-@import url(../blocks/form/__input/_textarea/form__input_textarea.scss);
-@import url(../blocks/modal/__button/_exit/_help/modal__button_exit_help.scss);
-
-@import url(../blocks/container-about/__subtitle-box/_open/container-about__subtitle-box_open.scss);
 @import url(../blocks/modal/_open/modal_open.scss);

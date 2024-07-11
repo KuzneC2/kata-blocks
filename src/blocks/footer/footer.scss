@@ -2,16 +2,12 @@
     max-width: 1920px;
     margin-left: 322px;
     padding: 83px 0 21px 0;
-}
 
-@media (max-width: 1200px) {
-    .footer {
+    @media (max-width: 1200px) {
         margin: 0;
     }
-}
 
-@media (max-width: 720px) {
-    .footer {
+    @media (max-width: 720px) {
         padding: 40px 0 4px 0;
     }
 }

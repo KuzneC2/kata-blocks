@@ -10,35 +10,25 @@
     padding: 0 0 0 32px;
     font-weight: 500;
 
-}
+    &:after {
+        content: '';
+        background-image: url(../../images/pink-more.svg);
+        width: 24px;
+        height: 24px;
 
-@media (max-width: 768px) {
-    .slide-hyperlink {
+        @media (max-width: 460px) {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
 
+    @media (max-width: 768px) {
         padding: 0 0 0 24px;
     }
-}
 
-@media (max-width: 460px) {
-    .slide-hyperlink {
+    @media (max-width: 460px) {
         display: inline-block;
         max-width: 60%;
         padding: 0 0 0 16px;
-    }
-}
-
-
-.slide-hyperlink::after {
-    content: '';
-    background-image: url(../../images/pink-more.svg);
-    width: 24px;
-    height: 24px;
-
-}
-
-@media (max-width: 460px) {
-    .slide-hyperlink::after {
-        display: inline-block;
-        vertical-align: middle;
     }
 }
