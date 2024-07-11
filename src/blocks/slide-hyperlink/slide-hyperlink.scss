@@ -4,15 +4,15 @@
     line-height: 24px;
     letter-spacing: -0.2px;
 
-    color: #1B1C21;
+    color: $textColor_1;
     display: flex;
     text-decoration: none;
-    padding: 0 0 0 32px;
+    padding: 0 0 50px 32px;
     font-weight: 500;
 
     &:after {
         content: '';
-        background-image: url(../../images/pink-more.svg);
+        background-image: url(../images/pink-more.svg);
         width: 24px;
         height: 24px;
 
@@ -23,12 +23,12 @@
     }
 
     @media (max-width: 768px) {
-        padding: 0 0 0 24px;
+        padding: 0 0 47px 24px;
     }
 
     @media (max-width: 460px) {
         display: inline-block;
         max-width: 60%;
-        padding: 0 0 0 16px;
+        padding: 0 0 40px 16px;
     }
 }

@@ -1,7 +1,7 @@
 .round-button {
 	width: 40px;
 	height: 40px;
-	background-color: #FF3E79;
+	background-color: $bgColor_2;
 	border-radius: 50%;
 	margin: 0 16px 0 0;
 	padding: 0;
@@ -9,7 +9,7 @@
 	transition: background-color 0.4s;
 	&:hover {
 		cursor: pointer;
-		background-color: #ff3e78ac;
+		background-color: $bgColor_3;
 	}
 }
 .header__row {
@@ -19,44 +19,44 @@
 }
 
 .round-button_burger {
-    background-image: url(../../images/icon.svg);
+    background-image: url(../images/icon.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .round-button_call {
-    background-image: url(../../images/call.svg);
+    background-image: url(../images/call.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .round-button_exit {
-    background-image: url(../../images/exit.svg);
+    background-image: url(../images/exit.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .round-button_lupa {
-    background-image: url(../../images/lypa.svg);
+    background-image: url(../images/lypa.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .round-button_profile{
-    background-image: url(../../images/profile.svg);
+    background-image: url(../images/profile.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .round-button_repair {
-    background-image: url(../../images/repair.svg);
+    background-image: url(../images/repair.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     }
 .round-button_search {
-    background-image: url(../../images/search.svg);
+    background-image: url(../images/search.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 .round-button_support{
-    background-image: url(../../images/support.svg);
+    background-image: url(../images/support.svg);
     background-repeat: no-repeat;
     background-position: 50%;
 }

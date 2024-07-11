@@ -2,8 +2,8 @@
     box-sizing: border-box;
     width: 40px;
     height: 40px;
-    border: 2px solid #FF3E79;
+    border: $tablePar_5;
     border-radius: 20px;
     display: flex;
-    background: url(../../../images/slider-button.svg) no-repeat 50%;
+    background: url(../images/slider-button.svg) no-repeat 50%;
 }

@@ -1,9 +1,11 @@
 .container-about {
 	margin: 7px 0 0 0;
 }
+
 .container-about__collumn {
 	margin: 0 0 0 34px;
 }
+
 .container-about__image {
 	width: 531px;
 	display: flex;
@@ -11,68 +13,81 @@
 	padding: 7px 0 49px 0;
 	margin: 0 28px 0 36px;
 }
+
 .container-about__more-information {
 	font-family: 'TT Lakes';
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: -0.2px;
-	color: #1B1C21;
+	color: $textColor_1;
 	margin: 14px 0 0 0;
 	font-weight: 600;
 	border: none;
 	background-color: transparent;
+
 	&::before {
-		content: url(../../images/more.svg);
+		content: url(../images/more.svg);
 		text-align: center;
 		display: inline-block;
 		width: 24px;
 		height: 24px;
 		margin: 0 8px 0 16px;
 	}
+
 	&:hover {
 		color: #1b1c218d;
 		cursor: pointer;
 	}
 }
+
 .container-about__subtitle {
 	font-family: 'TT Lakes';
 	font-size: 14px;
 	line-height: 18px;
 	letter-spacing: 0.2px;
-	color: #1B1C21;
+	color: $textColor_1;
 	margin: 0 auto 0;
 	max-width: 490px;
+
 	&:nth-child(1) {
 		margin: 0 0 20px 0;
 	}
 }
+
 .container-about__subtitle-box {
 	margin: 16px 0 0 0;
 	transition: 1s;
 }
+
 @media only screen and (min-width: 656px) and (max-width: 1024px) {
 	.container-about {
 		margin: 32px 0 0 0;
 	}
+
 	.container-about__collumn {
 		margin: 0 0 0 24px;
 	}
+
 	.container-about__image {
 		width: 360px;
 		padding: 0 0 40px 0;
 		margin: 0 25px 0 48px;
 	}
+
 	.container-about__more-information {
 		margin: 10px 0 0 0;
+
 		&::before {
 			margin: 0 8px 0 1px;
 		}
 	}
+
 	.container-about__subtitle {
 		margin: 0 auto 0;
 		line-height: 20px;
 		max-width: 312px;
 	}
+
 	.container-about__subtitle-box {
 		max-height: 160px;
 		display: block;
@@ -80,32 +95,39 @@
 		margin: 0px 0 0 0;
 	}
 }
+
 @media only screen and (min-width: 656px) {
 	.container-about {
 		display: flex;
 		justify-content: center;
 	}
 }
+
 @media (max-width: 656px) {
 	.container-about__collumn {
 		margin: 0 auto 0;
 		max-width: 320px;
 	}
+
 	.container-about__image {
 		width: 320px;
 		padding: 16px 0 35px 0;
 		margin: 0 auto;
 	}
+
 	.container-about__more-information {
 		margin: 16px 0 0 0;
 	}
+
 	.container-about__subtitle {
-		&:nth-child(1) {
-			margin: 0 auto;
-		}
-		max-width: 288px;
 		margin: 0 auto;
-	}
+		max-width: 288px;
+	  
+		&:nth-child(1) {
+		  margin: 0 auto;
+		}
+	  }
+
 	.container-about__subtitle-box {
 		max-height: 90px;
 		display: block;

@@ -19,9 +19,9 @@
 	justify-content: space-between;
 	align-items: center;
 	box-sizing: border-box;
-	background-color: #fff;
+	background-color: $whiteColor;
 	border-radius: 6px;
-	border: 1px solid #e7e7e7;
+	border: $tablePar_3;
 }
 .slider__box_big {
 	padding: 0;
@@ -46,10 +46,10 @@
 	box-sizing: border-box;
 	width: 40px;
 	height: 40px;
-	border: 2px solid #FF3E79;
+	border: $tablePar_5;
 	border-radius: 20px;
 	display: flex;
-	background: url(../../images/slider-button.svg) no-repeat 50%;
+	background: url(../images/slider-button.svg) no-repeat 50%;
 }
 @media (max-width: 1120px) {
 	.slider {

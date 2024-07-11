@@ -10,7 +10,7 @@
 	line-height: 24px;
 	letter-spacing: -0.2px;
 	font-weight: 500;
-	color: #1B1C21;;
+	color: $textColor_1;
 	margin: 0 8px 0 0;
 	text-decoration: none;
 	&:hover {
@@ -31,7 +31,7 @@
 				display: inline-flex;
 				height: 32px;
 				border-radius: 1px;
-				background-color: #eaeaea;
+				background-color: $bgColor_1;
 				margin: auto 20px auto 4px;
 				vertical-align: super;
 			}

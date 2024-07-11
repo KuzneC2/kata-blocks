@@ -5,7 +5,7 @@
 }
 
 .slider-table__button {
-    background-color: #FF3E79;
+    background-color: $bgColor_2;
     font-family: 'TT Lakes';
     font-size: 12px;
     line-height: 24px;
@@ -15,10 +15,10 @@
     text-align: left;
     padding: 4px 4px 4px 12px;
     border-radius: 16px;
-    background-image: url(../../images/sliderTableBtn.svg);
+    background-image: url(../images/sliderTableBtn.svg);
     background-repeat: no-repeat;
     background-position: 85% 50%;
-    color: #FFFFFF;
+    color: $whiteColor;
     box-sizing: border-box;
     min-width: 119px;
     margin: 7px 0 0 0;
@@ -30,18 +30,18 @@
     column-gap: 9%;
     align-items: center;
     padding: 16px 0;
-    border-bottom: 1px solid #e8e8e8;
+    border-bottom: $tablePar_6;
 }
 
 .slider-table__row {
     box-sizing: border-box;
     padding: 0px 24px;
-    background-color: #fff;
+    background-color: $whiteColor;
 }
 
 .slider-table__row_transparent {
     line-height: 16px;
-    color: #7E7E82;
+    color: $textColor_2;
     mix-blend-mode: normal;
     opacity: 0.72;
     background-color: transparent;
@@ -52,7 +52,7 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
-    color: #1B1C21;
+    color: $textColor_1;
     margin: 0;
     text-align: left;
 }

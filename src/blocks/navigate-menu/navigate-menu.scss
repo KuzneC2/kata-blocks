@@ -12,7 +12,7 @@
 
     .navigate-menu__link {
         text-decoration: none;
-        color: #1B1C21;
+        color: $textColor_1;
     
         font-family: 'TT Lakes';
         font-size: 16px;
@@ -23,7 +23,7 @@
         font-weight: 500;
     
         &:focus {
-            color: #7E7E82;
+            color: $textColor_2;
     
             &:before {
                 content: '';
@@ -33,7 +33,7 @@
                 height: 32px;
                 margin: 0 -4px 0 0;
                 transform: translateX(-24px);
-                background-color: #41F6D7;
+                background-color: $bgColor_6;
             }
         }
     }
