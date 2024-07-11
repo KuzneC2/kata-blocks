@@ -110,3 +110,7 @@ buttonOpenNavbar.addEventListener('click', function(){
     modalNavbar.classList.add('modal_open')
     console.log('click')
 })
+
+
+
+modalNavbar.style.overflowY = 'auto';
