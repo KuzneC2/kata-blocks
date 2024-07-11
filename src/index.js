@@ -113,4 +113,8 @@ buttonOpenNavbar.addEventListener('click', function(){
 
 
 
-modalNavbar.style.overflowY = 'auto';
+// modalNavbar.style.overflowY = 'auto';
+
+// modalNavbar.addEventListener('wheel', function(e) {
+//     e.stopPropagation();
+//   });
