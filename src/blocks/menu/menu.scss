@@ -1,5 +1,9 @@
+* {
+    outline: 1px solid green;
+}
+
 .menu {
-    min-height: 1960px;
+    min-height: 1982px;
     box-sizing: border-box;
     position: absolute;
     width: 320px;
@@ -7,6 +11,10 @@
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
     background-color: $whiteColor;
     z-index: 3;
+
+    @media (max-width:1470px) {
+        min-height: 2022px;
+    }
 
     @media (max-width: 1200px) {
         overflow: auto;
