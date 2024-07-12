@@ -122,15 +122,21 @@
 	.container-about__subtitle {
 		margin: 0 auto;
 		max-width: 288px;
-	  
+
 		&:nth-child(1) {
-		  margin: 0 auto;
+			margin: 0 auto;
 		}
-	  }
+	}
 
 	.container-about__subtitle-box {
 		max-height: 90px;
 		display: block;
 		overflow: hidden;
 	}
+
+	
+}
+
+.container-about__subtitle-box_open {
+	max-height: none;
 }
