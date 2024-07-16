@@ -1,8 +1,8 @@
 .menu {
-    min-height: 100vh;
+    height: 100vh;
     box-sizing: border-box;
     position: fixed;
-    overflow: auto;
+    overflow-y: scroll;
 
     width: 320px;
     padding: 18px 0 32px 24px;
