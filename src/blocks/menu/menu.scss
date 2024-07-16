@@ -1,26 +1,18 @@
 .menu {
-    min-height: 1982px;
+    min-height: 100vh;
     box-sizing: border-box;
-    position: absolute;
+    position: fixed;
+    overflow: auto;
+
     width: 320px;
     padding: 18px 0 32px 24px;
     box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
     background-color: $whiteColor;
     z-index: 3;
 
-    @media (max-width:1470px) {
-        min-height: 2022px;
-    }
-
-    @media (max-width: 1200px) {
-        overflow: auto;
-        min-height: 1024px;
-    }
-
-
 
     @media (max-width: 520px) {
-        min-height: 676px;
+
         width: 100%;
     }
 }

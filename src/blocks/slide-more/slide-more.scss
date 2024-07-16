@@ -8,8 +8,15 @@
     color: $textColor_1;
     max-width: 200px;
     margin: 24px 0 0 32px;
-    padding: 0 0 50px;
+    padding: 0 20px 50px 0;
+    transition: opacity 0.2s;
+    background-color: transparent;
+    border: none;
 
+    &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
 
     &:before {
         content: url(../images/more-icon.svg);
@@ -30,3 +37,5 @@
 
 
 }
+
+

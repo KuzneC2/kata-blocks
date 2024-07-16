@@ -193,3 +193,12 @@ buttonOpenText.addEventListener('click', function () {
     }
 });
 
+
+
+function a(par1){
+
+    function b(){
+        return par1 + par2
+    }
+}
+
