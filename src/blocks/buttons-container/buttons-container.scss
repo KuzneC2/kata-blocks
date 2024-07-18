@@ -1,0 +1,43 @@
+.buttons-container {
+    padding: 24px 20px 50px 32px;
+    max-width: 200px;
+
+    .buttons-container__show {
+        font-family: 'TT Lakes';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: $textColor_1;
+
+        transition: opacity 0.2s;
+        background-color: transparent;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+
+        &:before {
+            content: url(../images/more-icon.svg);
+            width: 24px;
+            height: 24px;
+            margin: 0 8px 0 0;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+
+        @media (max-width: 520px) {
+            display: none;
+        }
+
+
+    }
+
+    @media (max-width: 1024px) {
+        padding: 24px 0 32px 18px;
+    }
+}

@@ -23,6 +23,28 @@
         justify-content: center;
         align-items: center;
 
+        &:after {
+            display: none;
+
+            @media only screen and (min-width: 550px) and (max-width: 1200px) {
+                content: "";
+                width: 2px;
+                display: flex;
+                height: 32px;
+                position: absolute;
+                border-radius: 1px;
+                background-color: #eaeaea;
+                margin: 0px 20px 0 0;
+                vertical-align: super;
+                left: 83px;
+            }
+
+            @media (max-width: 520px) {
+                display: none;
+            }
+
+        }
+
         @media only screen and (min-width: 521px) and (max-width: 1200px) {
             margin: 0 0 0 24px;
         }

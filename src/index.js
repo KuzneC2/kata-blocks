@@ -34,7 +34,7 @@ const swiper = new Swiper('.swiper_first', {
 });
 
 const slider = document.querySelectorAll('.slider');
-const slideMore = document.querySelectorAll('.slide-more');
+const slideMore = document.querySelectorAll('.buttons-container__show');
 
 
 for (let i = 0; i < slideMore.length; i++) {

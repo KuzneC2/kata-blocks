@@ -4,10 +4,10 @@
 
     .modal-item__content {
         width: 440px;
-        min-height: 940px;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         background-color: $whiteColor;
@@ -75,6 +75,7 @@
 
         .modal-item__subtitle_color_pink {
             color: $bgColor_3;
+            text-decoration: none;
         }
     }
 
